@@ -1,0 +1,7 @@
+@mixin fuSobre($tamano,$centrado,$color,$bold,$capital) {
+    font-size: $tamano;
+    text-align: $centrado;
+    color: $color;
+    font-weight: $bold;
+    text-transform: $capital;
+}

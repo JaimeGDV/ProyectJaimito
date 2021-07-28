@@ -1,0 +1,255 @@
+@charset "UTF-8";
+.indi {
+  font-family: "Josefin Sans", sans-serif;
+  color: #F06847;
+}
+
+.indi header nav img {
+  width: 150px;
+}
+
+.indi header nav img:hover {
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+.indi main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 600px;
+  align-items: center;
+}
+
+.indi main div ul {
+  list-style: none;
+}
+
+.indi main div ul li {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.indi main div ul li img {
+  width: 400px;
+}
+
+.indi footer div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+  background-color: #E9C46A;
+  align-items: center;
+}
+
+.indi footer div div img {
+  width: 60px;
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.diseñoImage__lit {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  height: 600px;
+  align-items: center;
+}
+
+.diseñoImage__lit div img {
+  width: 400px;
+  height: 275px;
+}
+
+.box img:hover {
+  width: 600px;
+  padding: 30px;
+  height: 457px;
+  transition: height 1s, width 1s;
+}
+
+.dise {
+  font-family: "Josefin Sans", sans-serif;
+  color: #F06847;
+}
+
+.dise header nav img {
+  width: 150px;
+}
+
+.dise header nav img:hover {
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+.dise main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 600px;
+  align-items: center;
+}
+
+.dise footer div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+  background-color: #E9C46A;
+  align-items: center;
+}
+
+.dise footer div div img {
+  width: 60px;
+}
+
+.ilu {
+  font-family: "Josefin Sans", sans-serif;
+  color: #F06847;
+}
+
+.ilu header nav img {
+  width: 150px;
+}
+
+.ilu header nav img:hover {
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+.ilu main {
+  display: grid;
+  justify-content: space-evenly;
+  height: 1200px;
+  align-items: center;
+}
+
+.ilu footer div {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  background-color: #E9C46A;
+  align-items: center;
+}
+
+.ilu footer div div img {
+  width: 60px;
+}
+
+.sobre {
+  font-family: "Josefin Sans", sans-serif;
+  color: #F06847;
+}
+
+.sobre header nav img {
+  width: 150px;
+}
+
+.sobre header nav img:hover {
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+.sobre main {
+  display: grid;
+  justify-content: space-evenly;
+  height: 800px;
+  align-items: center;
+}
+
+.sobre main h1 {
+  background-color: #E9C46A;
+  font-size: 2rem;
+  text-align: center;
+  color: #F06847;
+  font-weight: bold;
+}
+
+.sobre main div {
+  font-size: 1rem;
+  text-align: justify;
+  color: #1B4B5F;
+  text-transform: lowercase;
+}
+
+.sobre main div .pruebaDe-1 {
+  font-size: 1rem;
+}
+
+.sobre main div .pruebaDe-2 {
+  font-size: 2rem;
+}
+
+.sobre main div .pruebaDe-3 {
+  font-size: 3rem;
+}
+
+.sobre main div div {
+  font-size: 1rem;
+  text-align: center;
+  color: #1B4B5F;
+  text-transform: uppercase;
+}
+
+.sobre footer div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+  background-color: #E9C46A;
+  align-items: center;
+}
+
+.sobre footer div div img {
+  width: 60px;
+}
+
+.contactu {
+  font-family: "Josefin Sans", sans-serif;
+  color: #F06847;
+}
+
+.contactu header nav img {
+  width: 150px;
+}
+
+.contactu header nav img:hover {
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+.contactu main {
+  display: grid;
+  justify-content: space-evenly;
+  height: 800px;
+  align-items: center;
+}
+
+.contactu footer div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+  background-color: #E9C46A;
+  align-items: center;
+}
+
+.contactu footer div .btn--behance {
+  background-color: blue;
+}
+
+.contactu footer div .btn--instagram {
+  background-color: red;
+}
+
+.contactu footer div .btn--gmail {
+  background-color: yellow;
+}
+
+.contactu footer div div img {
+  width: 60px;
+}
+
+.btn, .contactu footer div .btn--behance, .contactu footer div .btn--instagram, .contactu footer div .btn--gmail {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */
